@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+   <!-- left side section -->
+    <div class="containt">
+      <h1><span>SAFE VAULT</span> <br><p>Password Manager.com</p></h1>
+      <p>Unlock Peace of Mind,<br>Your Keys to Security, Your Gateway to Confidence!</p>
+   </div>
+
+
+   <!-- scroll section -->
+    <div class="white_section">
+      <h1>Your Passwords</h1>
+      <table>
+          <tr>
+            <th>Website</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Delete</th>
+          </tr>
+          
+          
+      </table>   
+     </div>
+
+
+    
+    <!--pop up design-->
+    <div class="center">
+      <button id="show-login">Add Password</button>
+  </div>
+  <div class="popup">
+      <div class="close-btn">&times;</div>
+      <div class="form">
+        <h2>Add Password</h2>
+        <div class="form-element">
+          <label for="website">Website</label>
+          <input type="url" id="website">
+        </div>
+        <div class="form-element">
+          <label for="username">Username</label>
+          <input type="username" id="username">
+        </div>
+        <div class="form-element">
+          <label for="password">Password</label>
+          <input type="password" id="password">
+        </div>
+        <div class="form-element">
+          <button id="submit">Add</button>
+        </div>
+      </div>
+
+  </div>
+  <script src="logic.js"></script>
+</body>
+</html>
